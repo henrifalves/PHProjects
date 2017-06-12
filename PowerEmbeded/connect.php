@@ -13,7 +13,7 @@
 
 		static function conn_proc()
 		{
-			$serverName = "10.0.0.76"; //serverName\instanceName
+			$serverName = ""; //serverName\instanceName
     		$connectionInfo = array( "Database"=>"DW", "UID"=>"excelCEF", "PWD"=>"99Y34w8");
     		try
     		{
