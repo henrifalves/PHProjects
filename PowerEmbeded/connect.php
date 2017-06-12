@@ -14,7 +14,7 @@
 		static function conn_proc()
 		{
 			$serverName = ""; //serverName\instanceName
-    		$connectionInfo = array( "Database"=>"DW", "UID"=>"excelCEF", "PWD"=>"99Y34w8");
+    		$connectionInfo = array( "Database"=>"DW", "UID"=>"excelCEF", "PWD"=>"pass");
     		try
     		{
         		self::$conn = new PDO( "sqlsrv:server=$serverName ; Database=$connectionInfo[Database]","$connectionInfo[UID]", "$connectionInfo[PWD]");
