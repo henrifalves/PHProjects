@@ -1,7 +1,7 @@
 
 <?php
-$serverName = "10.0.0.76"; //serverName\instanceName
-$connectionInfo = array( "Database"=>"DW", "UID"=>"excelCEF", "PWD"=>"99Y34w8");
+$serverName; //serverName\instanceName
+$connectionInfo = array( "Database"=>"db_name", "UID"=>"user", "PWD"=>"pass");
 $conn = new PDO( "sqlsrv:server=$serverName ; $connectionInfo[Database]","$connectionInfo[UID]", "$connectionInfo[PWD]");
 $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );  
 
